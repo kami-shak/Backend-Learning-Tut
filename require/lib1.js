@@ -5,3 +5,7 @@ function sayHello(name) {
 console.log(module.exports);
 module.exports = { sayHello };
 console.log(module.exports);
+
+setTimeout (() => {
+    module.exports.omg = 'wow'
+}, 3000)

@@ -11,4 +11,4 @@ lib1.sayHello('John');
 
 setTimeout(() => {
    console.log(lib1);         
-},10000)
+},3000)
